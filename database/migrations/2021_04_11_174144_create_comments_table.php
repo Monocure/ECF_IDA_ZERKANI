@@ -21,8 +21,6 @@ class CreateCommentsTable extends Migration
             $table->text('comment');
             $table->text('grade');
 
-            $table->foreign('user_id')->contrained();
-            $table->foreign('anime_id')->constrained();
         });
     }
 
